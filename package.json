@@ -1,0 +1,26 @@
+{
+  "name": "pca9685-testing",
+  "version": "0.0.1",
+  "description": "Sandbox for testing PCA9685 code using a Raspberry Pi Zero W and Arch Linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PCA9685",
+    "i2c",
+    "Arch",
+    "Linux",
+    "Raspberry",
+    "Pi",
+    "Zero",
+    "W"
+  ],
+  "author": "C. Thomas Brittain",
+  "license": "MIT",
+  "dependencies": {
+    "i2c": "^0.2.3",
+    "i2c-bus": "^4.0.1",
+    "pca9685": "^4.0.3"
+  }
+}
